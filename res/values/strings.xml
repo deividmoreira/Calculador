@@ -2,6 +2,23 @@
 <resources>
     <string name="hello">Hello World, Principal!</string>
     <string name="app_name">Calculador</string>
+    <string name="motivoVazio">Selecione o motivo</string>
+    <string-array name="motivoValues">
+        <item>Pedido de demissão</item>
+        <item>Dispensa sem justa causa</item>
+        <item>Dispensa com justa causa</item>
+        <item>Termino contrato de experiência</item>
+    </string-array>
+    <string name="tipoAvisoPrevioVazio">Selecione o tipo de aviso</string>
+    <string-array name="tipoAvisoPrevioValues">
+        <item>Trabalhado</item>
+        <item>Indenizado</item>
+    </string-array>
+    <string name="feriasVazio">Selecione férias vencidas</string>
+    <string-array name="feriasValues">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
     <string-array name="valuesSpinnerRescicao">
         <item>Sim</item>
         <item>Não</item>

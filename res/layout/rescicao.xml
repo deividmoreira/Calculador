@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
   android:layout_height="match_parent" android:orientation="horizontal">
-  	<ScrollView android:id="@+id/scrollRescicao">
+  	
 		<TextView 
 	    	android:text="Salário base" 
 	    	android:id="@+id/textSalarioBase" 
@@ -13,18 +13,69 @@
 	    	android:id="@+id/editSalarioBase" 
 	    	android:layout_width="fill_parent" 
 	    	android:layout_height="wrap_content"
-	    	android:hint="Digite o salário base"
+	    	android:hint="Digite o salário base" 
 	    	android:inputType="numberDecimal"/>
+	    <TextView 
+	    	android:text="Data inicio trabalho" 
+	    	android:id="@+id/textDataInicio" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"/>
+	    <EditText 
+	    	android:id="@+id/editDataInicio" 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:hint="Digite a data de inicio"
+	    	android:inputType="date"/>	
+	    <TextView 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content" 
+	    	android:id="@+id/textDataFim" 
+	    	android:text="Digite a data do fim"/>
+	    <EditText 
+	    	android:id="@+id/editDataFim" 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:hint="Digite a data do fim"
+	    	android:inputType="date"/>	
 	    <TextView 
 	    	android:layout_width="wrap_content" 
 	    	android:layout_height="wrap_content" 
 	    	android:id="@+id/textFeriasVencidas" 
-	    	android:text="Férias vencidas"/>
+	    	android:text="Motivo"/>	
 	    <Spinner 
 	    	android:id="@+id/spinnerFeriasVencidas" 
 	    	android:layout_width="wrap_content" 
 	    	android:layout_height="wrap_content"
+	    	android:prompt="@string/motivoVazio"
+	    	android:entries="@array/motivoValues"
 	    	/>
-    	
-	</ScrollView>   	
+	    <TextView 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content" 
+	    	android:id="@+id/textFeriasVencidas" 
+	    	android:text="Tipo de aviso prévio"/>	
+	    <Spinner 
+	    	android:id="@+id/spinnerTipoAvisoPrevio" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:prompt="@string/tipoAvisoPrevioVazio"
+	    	android:entries="@array/tipoAvisoPrevioValues"
+	    	/>		
+	    <TextView 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content" 
+	    	android:id="@+id/textFeriasVencidas" 
+	    	android:text="Férias vencidas"/>	
+	    <Spinner 
+	    	android:id="@+id/spinnerFeriasVencidas" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:prompt="@string/feriasVazio"
+	    	android:entries="@array/feriasValues"
+	    	/>
+		<Button 
+			android:id="@+id/botaoCalcular"
+			android:text="Calcular"
+			android:onClick="calcular"/>	    	
+	
 </TableLayout>

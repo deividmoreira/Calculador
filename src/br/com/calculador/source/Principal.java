@@ -16,7 +16,6 @@ public class Principal extends Activity {
         ImageButton imageRescicao = (ImageButton) findViewById(R.id.imageRescicao);
         imageRescicao.setOnClickListener(new View.OnClickListener() {
 			
-			@Override
 			public void onClick(View view) {
 				// TODO Auto-generated method stub
 				startActivity(new Intent(Principal.this, Rescicao.class));

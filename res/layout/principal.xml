@@ -6,9 +6,5 @@
     <ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/icon" android:id="@+id/imageRescicao" android:layout_gravity="center_vertical" android:layout_weight="1"></ImageButton>
     <ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/icon" android:id="@+id/imageFerias" android:layout_gravity="center_vertical" android:layout_weight="1"></ImageButton>
     <ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/icon" android:id="@+id/imageDecimoTerceiro" android:layout_gravity="center_vertical" android:layout_weight="1"></ImageButton>
-    <br.com.calculador.source.Indicador
-    	android:name="@+id/indicador"
-    	android:layout_height="wrap_content" 
-    	android:layout_width="fill_parent"/>
-    	
+        	
 </LinearLayout>
