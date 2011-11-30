@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="horizontal">
+  	
+		<TextView 
+	    	android:text="Salário base" 
+	    	android:id="@+id/textSalarioBase" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"/>
+	    <EditText 
+	    	android:id="@+id/editFeriasSalarioBase" 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:hint="Digite o salário base" 
+	    	android:inputType="numberDecimal"/>
+	    <TextView 
+	    	android:text="Número de dependentes" 
+	    	android:id="@+id/textNrDependentes" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"/>
+	    <EditText 
+	    	android:id="@+id/editNrDependentes" 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:hint="Digite o número de dependentes"
+	    	android:inputType="number"/>	
+	    <TextView
+	        android:text="Quantidade de Dias" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content" 
+	    	android:id="@+id/textQtdDias"/>
+	    <EditText 
+	    	android:id="@+id/editQtdDias" 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:hint="Digite a quantidade de dias"
+	    	android:inputType="number"/>	
+		<Button 
+			android:id="@+id/botaoCalcular"
+			android:text="Calcular"
+			android:onClick="calcular"/>
+		<Button 
+			android:id="@+id/botaoLimpar"
+			android:text="Limpar"
+			android:onClick="limpar"/>
+</TableLayout>

@@ -14,5 +14,6 @@
             </intent-filter>
         </activity>
 		<activity android:name=".Rescicao" android:label="Rescição"/>
+		<activity android:name=".Ferias" android:label="Férias"/>
     </application>
 </manifest>

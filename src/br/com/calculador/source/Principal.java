@@ -21,5 +21,15 @@ public class Principal extends Activity {
 				startActivity(new Intent(Principal.this, Rescicao.class));
 			}
 		});
+        
+        ImageButton imageFerias = (ImageButton) findViewById(R.id.imageFerias);
+        imageFerias.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View view) {
+				// TODO Auto-generated method stub
+				startActivity(new Intent(Principal.this, Ferias.class));
+			}
+		});
+        
     }
 }
