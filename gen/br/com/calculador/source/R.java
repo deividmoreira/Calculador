@@ -9,7 +9,10 @@ package br.com.calculador.source;
 
 public final class R {
     public static final class array {
-        public static final int valuesSpinnerRescicao=0x7f050000;
+        public static final int feriasValues=0x7f050002;
+        public static final int motivoValues=0x7f050000;
+        public static final int tipoAvisoPrevioValues=0x7f050001;
+        public static final int valuesSpinnerRescicao=0x7f050003;
     }
     public static final class attr {
     }
@@ -17,23 +20,37 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int editSalarioBase=0x7f060006;
-        public static final int imageDecimoTerceiro=0x7f060002;
-        public static final int imageFerias=0x7f060001;
-        public static final int imageRescicao=0x7f060000;
-        public static final int indicador=0x7f060003;
-        public static final int scrollRescicao=0x7f060004;
-        public static final int spinnerFeriasVencidas=0x7f060008;
-        public static final int textFeriasVencidas=0x7f060007;
-        public static final int textSalarioBase=0x7f060005;
+        public static final int botaoCalcular=0x7f060006;
+        public static final int botaoLimpar=0x7f060007;
+        public static final int editDataFim=0x7f06000f;
+        public static final int editDataInicio=0x7f06000d;
+        public static final int editFeriasSalarioBase=0x7f060001;
+        public static final int editNrDependentes=0x7f060003;
+        public static final int editQtdDias=0x7f060005;
+        public static final int editSalarioBase=0x7f06000b;
+        public static final int imageDecimoTerceiro=0x7f06000a;
+        public static final int imageFerias=0x7f060009;
+        public static final int imageRescicao=0x7f060008;
+        public static final int spinnerFeriasVencidas=0x7f060011;
+        public static final int spinnerTipoAvisoPrevio=0x7f060012;
+        public static final int textDataFim=0x7f06000e;
+        public static final int textDataInicio=0x7f06000c;
+        public static final int textFeriasVencidas=0x7f060010;
+        public static final int textNrDependentes=0x7f060002;
+        public static final int textQtdDias=0x7f060004;
+        public static final int textSalarioBase=0x7f060000;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
-        public static final int principal=0x7f030001;
-        public static final int rescicao=0x7f030002;
+        public static final int ferias=0x7f030000;
+        public static final int main=0x7f030001;
+        public static final int principal=0x7f030002;
+        public static final int rescicao=0x7f030003;
     }
     public static final class string {
         public static final int app_name=0x7f040001;
+        public static final int feriasVazio=0x7f040004;
         public static final int hello=0x7f040000;
+        public static final int motivoVazio=0x7f040002;
+        public static final int tipoAvisoPrevioVazio=0x7f040003;
     }
 }
